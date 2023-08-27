@@ -24,6 +24,18 @@ int game(char a[M][N],int cnt){
                 cout<<'\n';
             }
             cout<<"Player 1 wins!"<<'\n';
+            cout<<"1.Replay     2.Exit  "<<'\n';
+            int k;
+            cin>>k;
+            if(k==1){
+                cnt=0;
+                for(int i=0;i<M;i++){
+                   for(int j=0;j<N;j++){
+                     a[i][j]='_';
+                 }
+              }
+              game(a,cnt);
+            }
         }
         else if(((a[0][0]=='0'&&a[1][1]=='0')&&(a[2][2]=='0'))||((a[0][2]=='0'&&a[1][1]=='0')&&(a[2][0]=='0'))||((a[0][0]=='0'&&a[0][1]=='0')&&(a[0][2]=='0'))||((a[1][0]=='0'&&a[1][1]=='0')&&(a[1][2]=='0'))||((a[2][0]=='0'&&a[2][1]=='0')&&(a[2][2]=='0'))||((a[0][0]=='0'&&a[1][0]=='0')&&(a[2][0]=='0'))||((a[0][1]=='0'&&a[1][1]=='0')&&(a[2][1]=='0'))||((a[0][2]=='0'&&a[1][2]=='0')&&(a[2][2]=='0'))){
             for(int i=0;i<M;i++){
@@ -33,6 +45,18 @@ int game(char a[M][N],int cnt){
                 cout<<'\n';
             }
             cout<<"Player 2 wins!"<<'\n';
+            cout<<"1.Replay     2.Exit  "<<'\n';
+            int k;
+            cin>>k;
+            if(k==1){
+                cnt=0;
+                for(int i=0;i<M;i++){
+                   for(int j=0;j<N;j++){
+                     a[i][j]='_';
+                 }
+              }
+              game(a,cnt);
+            }
         }
         else{
            for(int i=0;i<M;i++){
@@ -53,6 +77,18 @@ int game(char a[M][N],int cnt){
                 cout<<'\n';
             }
             cout<<"Player 1 wins!"<<'\n';
+            cout<<"1.Replay     2.Exit  "<<'\n';
+            int k;
+            cin>>k;
+            if(k==1){
+                cnt=0;
+                for(int i=0;i<M;i++){
+                   for(int j=0;j<N;j++){
+                     a[i][j]='_';
+                 }
+              }
+              game(a,cnt);
+            }
         }
         else if(((a[0][0]=='0'&&a[1][1]=='0')&&(a[2][2]=='0'))||((a[0][2]=='0'&&a[1][1]=='0')&&(a[2][0]=='0'))||((a[0][0]=='0'&&a[0][1]=='0')&&(a[0][2]=='0'))||((a[1][0]=='0'&&a[1][1]=='0')&&(a[1][2]=='0'))||((a[2][0]=='0'&&a[2][1]=='0')&&(a[2][2]=='0'))||((a[0][0]=='0'&&a[1][0]=='0')&&(a[2][0]=='0'))||((a[0][1]=='0'&&a[1][1]=='0')&&(a[2][1]=='0'))||((a[0][2]=='0'&&a[1][2]=='0')&&(a[2][2]=='0'))){
             for(int i=0;i<M;i++){
@@ -62,6 +98,18 @@ int game(char a[M][N],int cnt){
                 cout<<'\n';
             }
             cout<<"Player 2 wins!"<<'\n';
+            cout<<"1.Replay     2.Exit  "<<'\n';
+            int k;
+            cin>>k;
+            if(k==1){
+                cnt=0;
+                for(int i=0;i<M;i++){
+                   for(int j=0;j<N;j++){
+                     a[i][j]='_';
+                 }
+              }
+              game(a,cnt);
+            }
         }
         else{
            for(int i=0;i<M;i++){
@@ -71,6 +119,18 @@ int game(char a[M][N],int cnt){
                 cout<<'\n';
             } 
             cout<<"Draw"<<'\n';
+            cout<<"1.Replay     2.Exit  "<<'\n';
+            int k;
+            cin>>k;
+            if(k==1){
+                cnt=0;
+                for(int i=0;i<M;i++){
+                   for(int j=0;j<N;j++){
+                     a[i][j]='_';
+                 }
+              }
+              game(a,cnt);
+            }
         }
     }
     else{
